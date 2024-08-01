@@ -1,0 +1,455 @@
+#logo {
+  width: 198px;
+  height: 55px;
+  position: absolute;
+  top: 56px;
+  left: 120px;
+  box-sizing: border-box;
+  display: flex;
+}
+#bottom {
+  width: 47.86px;
+  height: 24.29px;
+  position: absolute;
+  top: 30.71px;
+  box-sizing: border-box;
+
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background:linear-gradient(rgba(255, 148, 0, 1),rgba(234, 109, 39, 1)) ;
+
+}
+#semi {
+  position: absolute;
+  width: 19.29px;
+  height: 19.29px;
+
+  top: 18.79px;
+  left: 5.64px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 3.57px rgba(234, 109, 39, 1) solid;
+}
+#full{position: absolute;
+  width: 8.57px;
+height: 8.57px;
+top: 1px;
+left: 25.5px;  border-radius: 50%;
+border: 3.57px rgba(255, 148, 0, 1) solid;
+
+
+
+}
+#full2{position: absolute;
+  width: 8.57px;
+height: 8.57px;
+top: 16.64px;border: 3.57px solid rgba(234, 164, 39, 1);
+left: 31px;  border-radius: 50%;
+
+
+}
+#ellipse1 {
+  position: absolute;
+  width: 960px;
+  height: 960px;
+  top: -600px;
+  left: -450px;
+  gap: 0px;
+  border: 1px solid rgba(16, 26, 36, 0.2);
+  border-radius: 50%;
+  opacity: 0px;
+}
+
+#ellipse2 {
+  position: absolute;
+  width: 960px;
+  height: 960px;
+  top: -630px;
+  left: -538px;
+  border-radius: 50%;
+  border: 1px solid rgba(16, 26, 36, 0.2);
+}
+#name {
+  position: absolute;
+  top: 30.71px;
+  left: 70px;
+  font-size: 26px;
+}
+#navi {
+  position: absolute;
+  width: 371px;
+  height: 29px;
+  top: 83px;
+  left: 531px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+
+  margin-right: 30px;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
+#b1 {
+  box-shadow: 1px 1px 5px black;
+  color: white;
+  position: absolute;
+  width: 167px;
+  height: 64px;
+  top: 67px;
+  box-sizing: border-box;
+  left: 1000px;
+  background:linear-gradient(rgba(255, 148, 0, 1),rgba(234, 109, 39, 1)) ;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.main {
+  width: 510px;
+  height: 144px;
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  gap: 0px;
+  font-family: David Libre;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: left;
+
+  opacity: 0px;
+}
+.main2 {
+  width: 376px;
+  position: absolute;
+  height: 115px;
+  top: 380px;
+  left: 180px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+}
+#menu {
+  box-shadow: 1px 1px 5px black;
+  width: 120px;
+  position: absolute;
+  height: 54px;
+  top: 500px;
+  left: 180px;
+  color: white;
+  background-color: black;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+#b2 {
+  box-shadow: 1px 1px 5px black;
+  color: white;
+  width: 167px;
+  height: 54px;
+  top: 500px;
+  left: 325px;
+  position: absolute;
+  background:linear-gradient(rgba(255, 148, 0, 1),rgba(234, 109, 39, 1)) ;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#img1 {
+  background-image: url(dish1.png);
+  background-size: cover;
+  width: 270px;
+  height: 270px;
+  top: 340px;
+  left: 590px;
+  position: absolute;
+}
+#img2 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 200px;
+  left: 752.2px;
+  background-image: url(restro.jpeg);
+  background-size: cover;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  border-top-right-radius: 30px;
+}
+i {
+  margin-left: 10px;
+}
+#icons {
+  cursor: pointer;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 570px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  left: 180px;
+  border: 1px;
+}
+.main3 {
+  width: 480px;
+  position: absolute;
+  height: 65px;
+  top: 620px;
+  left: 485px;
+  font-family: David Libre;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: center;
+}
+#main4 {
+  position: absolute;
+  width: 376px;
+  height: 65px;
+  top: 710px;
+  left: 537px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: center;
+}
+.card1 {
+  border: 2px solid black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  justify-content: center;
+  height: 400px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  border-top-right-radius: 30px;
+  position: relative;
+}
+#food1 {
+  width: 207px;
+  height: 207px;
+  background-size: cover;
+  background-image: url(card1.png);
+}
+.menu1 {
+  border-top-left-radius: 57px;
+  border-bottom-right-radius: 70px;
+  border-top-right-radius: 30px;
+  width: 225px;
+  height: 150px;
+  background-color: #aed1d6;
+  font-family: David Libre;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mainmenu {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.wrapper {
+  position: absolute;
+  top: 800px;
+}
+.thirdpage {
+
+  width: 100%; 
+  max-width: 1000px; 
+  height: auto; 
+  margin: 0 auto; 
+ 
+   
+}
+
+.maindish {
+  width: 100%; 
+  max-width: 600px; 
+  height: 600px; position: absolute; 
+  top: 1300px;left: 100px;
+  background-image: url(maindish.png);
+  background-size: cover;
+}
+
+#leaf1 {
+  width: 91px;
+  height: 189px;
+  top: 280px;
+  left: 50px;
+
+  position: absolute;
+  background-image: url(leaf1.png);
+  background-size: cover;
+}
+#leaf2 {
+  background-image: url(leaf2.png);
+  background-size: cover;
+  width: 194px;
+  height: 129px;
+  top: 100px;
+  left: px;
+
+  position: absolute;
+}
+
+#leaf3 {
+  background-image: url(leaf3.png);
+  background-size: cover;
+  width: 209px;
+  height: 133px;
+  top: 277px;
+  left: 440px;
+  position: absolute;
+}
+#leaf4 {
+  background-image: url(leaf4.png);
+  background-size: cover;
+  width: 90px;
+  height: 175px;
+  top: 400px;
+  left: 330px;
+
+  position: absolute;
+}
+#main5 {
+  width: 520px;
+  position: absolute;
+  height: 130px;
+  top: 1330px;
+  left: 724px;
+  font-family: David Libre;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  text-align: left;
+}
+#main6 {
+  position: absolute;
+  width: 376px;
+  height: 115px;
+  top: 1460px;
+  left: 724px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+}
+
+  
+.third {
+  height: 500px;
+  position: absolute;
+  display: flex;
+  top: 2000px;
+  left: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.restro2 {
+  border-radius: 20px;
+  background-image: url("restro2.jpeg");
+  width: 1200px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  color: white;
+  font-family: "David Libre", serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  width: 804px;
+  height: 100px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+.input-container input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background:linear-gradient(rgba(255, 148, 0, 1),rgba(234, 109, 39, 1)) ;
+  color: white;
+  cursor: pointer;
+}
+
+.copyright {
+  position: absolute;
+  width: 1152px;
+  height: 300px;
+  top: 2400px;
+  left: 100px;
+}
+.hours {
+  display: flex;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+}
+.hours li {
+  white-space: nowrap;
+}
+.navi {
+  position: absolute;
+  top: 66.71px;
+  left: 550px;
+  font-size: 16px;
+}
+
+ul a {
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+}
+.dishes {
+  position: absolute;
+  top: 66.71px;
+  left: 700px;
+}
+#follow {
+  cursor: pointer;
+  position: absolute;
+  top: 77.71px;
+  left: 900px;
+  line-height: 30px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
