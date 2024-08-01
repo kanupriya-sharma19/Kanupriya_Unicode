@@ -10,7 +10,7 @@
 
 
 #3. Fetched data from backend API using JavaScript, CSS and HTML.\
-![Screenshot 2024-07-31 175705](https://github.com/user-attachments/assets/e6f714b8-8808-4e24-975d-c9d422cc029a)
+![Screenshot 2024-08-01 184235](https://github.com/user-attachments/assets/354638de-916f-4917-9fde-7e64b06ae1bc)
 
 That's it from my side. Thank you!! \
 -Kanupriya Sharma
