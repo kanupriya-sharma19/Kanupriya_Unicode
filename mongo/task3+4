@@ -1,0 +1,70 @@
+const express = require("express");
+const mongoose = require("mongoose");
+
+const app = express();
+const port = 3000;
+app.use(express.json());
+
+const Schema = new mongoose.Schema({
+  id: String,
+  name: String,
+  gender: String,
+  house: String ,
+  wizard: Boolean 
+});
+
+const Character = mongoose.model('Character', Schema);
+
+main()
+  .then(() => {
+    console.log("success");
+  })
+  .catch((err) => console.log(err));
+  
+ 
+async function main() {
+  await mongoose.connect(mongodb+srv://kp:kanu1234@cluster0.1tyav.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0);
+}
+
+app.get("/", (req, res) => {
+  res.send("workking");
+});
+
+app.listen(port, () => {
+  console.log(Running  ${port});
+});
+
+app.post("/characters", async (req, res) => {
+  try {
+    const { id, name, gender, house, wizard } = req.body;
+    const character = new Character({
+      id,
+      name,
+      gender,
+      house,
+      wizard
+    });
+
+    await character.save();
+
+    res.status(200).send({ message: "Character created successfully", character });
+  } catch (err) {
+    res.status(500).send({ error: "Error creating character"});
+  }
+});
+
+app.delete('/characters/:id', async (req, res) => {
+  try {
+      const characterId = req.params.id;
+      console.log(Deleted character with ID: ${characterId});
+      const character = await Character.findByIdAndDelete(characterId);
+
+      if (character) {
+          res.status(200).json({ message: 'Character deleted successfully', deletedCharacter: character });
+      } else {
+          res.status(404).json({ error: 'Character not found' });
+      }
+  } catch (err) {
+      res.status(500).json({ error: 'Error deleting character' });
+  }
+});
